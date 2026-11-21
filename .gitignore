@@ -1,0 +1,18 @@
+# Entorno virtual (se recrea con requirements.txt)
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Credenciales
+.env
+
+# Datos pesados: se regeneran al correr el cuaderno (descarga de datos.gov.co)
+datos/cache/
+datos/lake/
+datos/saber11_internet_estudiantes_*.csv.gz
+
+# Logs de Spark
+spark-warehouse/
+metastore_db/
+derby.log
